@@ -1,64 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RegisterActivity">
 
-    <EditText
-        android:id="@+id/etName"
-        android:layout_width="212dp"
-        android:layout_height="53dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="44dp"
-        android:ems="10"
-        android:hint="Name"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/etMail"
+    <Button
+        android:id="@+id/btMailRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:ems="10"
-        android:hint="e-Mail"
-        android:inputType="textEmailAddress"
-        app:layout_constraintTop_toBottomOf="@+id/etName"
-        tools:layout_editor_absoluteX="85dp" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="e-Mail İle Kayıt Ol" />
 
-    <EditText
-        android:id="@+id/etPassword"
+    <Button
+        android:id="@+id/btFacebookRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
-        app:layout_constraintTop_toBottomOf="@+id/etMail"
-        tools:layout_editor_absoluteX="85dp" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="176dp"
+        android:text="Facebook İle Kayıt Ol" />
 
     <Button
-        android:id="@+id/btRegister"
-        android:layout_width="212dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="36dp"
-        android:text="Register"
-        app:layout_constraintTop_toBottomOf="@+id/etPassword"
-        tools:layout_editor_absoluteX="86dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="211dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="36dp"
-        android:text="Register with FB"
-        app:layout_constraintTop_toBottomOf="@+id/btRegister"
-        tools:layout_editor_absoluteX="87dp" />
-</android.support.constraint.ConstraintLayout>
+        android:id="@+id/btTwitterRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="193dp"
+        android:text="Twitter İle Kayıt Ol" />
+</RelativeLayout>
