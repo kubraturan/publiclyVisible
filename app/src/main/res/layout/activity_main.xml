@@ -12,5 +12,15 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="211dp" />
+        android:layout_marginTop="211dp"
+        android:text="Kaydol"/>
+
+    <Button
+        android:id="@+id/btSignInOpen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="131dp"
+        android:text="Giriş Yap"/>
 </RelativeLayout>

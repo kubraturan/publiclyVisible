@@ -22,7 +22,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".RegisterEmail"></activity>
+        <activity android:name=".RegisterEmail" />
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".UserInformation"></activity>
     </application>
 
 </manifest>

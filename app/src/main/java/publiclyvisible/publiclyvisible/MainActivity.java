@@ -20,5 +20,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(intent,0);
             }
         });
+
+        Button btSignInOpen = (Button) findViewById(R.id.btSignInOpen);
+        btSignInOpen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(),SignInActivity.class);
+                startActivityForResult(intent,0);
+            }
+        });
     }
 }

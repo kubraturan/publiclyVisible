@@ -15,6 +15,7 @@
         completions."
     </string>
     <string name="action_sign_up_email">e-Mail İle Kayıt Ol</string>
+    <string name="action_sign_in_email">Giriş Yap</string>
     <string name="action_sign_up_facebook">Facebook İle Kayıt Ol</string>
     <string name="action_sign_up_twitter">Twitter İle Kayıt Ol</string>
     <string name="auth_failed">Failed.</string>
