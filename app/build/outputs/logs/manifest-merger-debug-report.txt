@@ -1,0 +1,176 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:design:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/2697c78e989923725eed3266ebfe9d03/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/f6fa060251724696ac647227c16e23d2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/erkan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/310b662eff05241f0bcc00bf901dfd8a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/111ae45c39ed9be971befe7961164579/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/d2ae2c1b9473caa99be186ee781a59d2/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/bdaea2a102fc5d14579fb4a25964b8f7/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/64f6de93aaf6fc4286b2b72273fb3ab8/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/fc08d6a0c6d61185e4611f2aa39c257b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8430fd67ec314ac46f31fdc5c5fcc6b6/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/860d6a129852ac98ccf5041a426af88f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/9e557be4807fae5bf40b4d62910ac6ae/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/13e4260744b9bd10616a96617520871e/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/a2bed52218cd0418b0da07ccf8aa62ef/AndroidManifest.xml:17:1-31:12
+INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:3:5-46
+		INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
+		INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:8:22-69
+application
+ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:10:5-25:19
+MERGED from [com.android.support:design:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/2697c78e989923725eed3266ebfe9d03/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/2697c78e989923725eed3266ebfe9d03/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/f6fa060251724696ac647227c16e23d2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/f6fa060251724696ac647227c16e23d2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/erkan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/310b662eff05241f0bcc00bf901dfd8a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/erkan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/310b662eff05241f0bcc00bf901dfd8a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/111ae45c39ed9be971befe7961164579/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/111ae45c39ed9be971befe7961164579/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/d2ae2c1b9473caa99be186ee781a59d2/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/d2ae2c1b9473caa99be186ee781a59d2/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/bdaea2a102fc5d14579fb4a25964b8f7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/bdaea2a102fc5d14579fb4a25964b8f7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/64f6de93aaf6fc4286b2b72273fb3ab8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/64f6de93aaf6fc4286b2b72273fb3ab8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/fc08d6a0c6d61185e4611f2aa39c257b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/fc08d6a0c6d61185e4611f2aa39c257b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8430fd67ec314ac46f31fdc5c5fcc6b6/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8430fd67ec314ac46f31fdc5c5fcc6b6/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/860d6a129852ac98ccf5041a426af88f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/860d6a129852ac98ccf5041a426af88f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/9e557be4807fae5bf40b4d62910ac6ae/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/9e557be4807fae5bf40b4d62910ac6ae/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/13e4260744b9bd10616a96617520871e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/13e4260744b9bd10616a96617520871e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/a2bed52218cd0418b0da07ccf8aa62ef/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/a2bed52218cd0418b0da07ccf8aa62ef/AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:16:9-40
+activity#publiclyvisible.publiclyvisible.MainActivity
+ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:17:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:21:27-74
+activity#publiclyvisible.publiclyvisible.RegisterActivity
+ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:24:9-63
+	android:name
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:24:19-51
+uses-sdk
+INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
+INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/2697c78e989923725eed3266ebfe9d03/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/2697c78e989923725eed3266ebfe9d03/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/f6fa060251724696ac647227c16e23d2/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/f6fa060251724696ac647227c16e23d2/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/erkan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/310b662eff05241f0bcc00bf901dfd8a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/erkan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/310b662eff05241f0bcc00bf901dfd8a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/111ae45c39ed9be971befe7961164579/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/111ae45c39ed9be971befe7961164579/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/d2ae2c1b9473caa99be186ee781a59d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/d2ae2c1b9473caa99be186ee781a59d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/bdaea2a102fc5d14579fb4a25964b8f7/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/bdaea2a102fc5d14579fb4a25964b8f7/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/64f6de93aaf6fc4286b2b72273fb3ab8/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/64f6de93aaf6fc4286b2b72273fb3ab8/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/fc08d6a0c6d61185e4611f2aa39c257b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/fc08d6a0c6d61185e4611f2aa39c257b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8430fd67ec314ac46f31fdc5c5fcc6b6/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8430fd67ec314ac46f31fdc5c5fcc6b6/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/860d6a129852ac98ccf5041a426af88f/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/860d6a129852ac98ccf5041a426af88f/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/9e557be4807fae5bf40b4d62910ac6ae/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/9e557be4807fae5bf40b4d62910ac6ae/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/13e4260744b9bd10616a96617520871e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/13e4260744b9bd10616a96617520871e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/a2bed52218cd0418b0da07ccf8aa62ef/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/a2bed52218cd0418b0da07ccf8aa62ef/AndroidManifest.xml:21:5-23:58
+INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
+INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/2697c78e989923725eed3266ebfe9d03/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
+		INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
+		INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/2697c78e989923725eed3266ebfe9d03/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/f6fa060251724696ac647227c16e23d2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/f6fa060251724696ac647227c16e23d2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/111ae45c39ed9be971befe7961164579/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/111ae45c39ed9be971befe7961164579/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/d2ae2c1b9473caa99be186ee781a59d2/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/d2ae2c1b9473caa99be186ee781a59d2/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/bdaea2a102fc5d14579fb4a25964b8f7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/bdaea2a102fc5d14579fb4a25964b8f7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/64f6de93aaf6fc4286b2b72273fb3ab8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/64f6de93aaf6fc4286b2b72273fb3ab8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/fc08d6a0c6d61185e4611f2aa39c257b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/fc08d6a0c6d61185e4611f2aa39c257b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8430fd67ec314ac46f31fdc5c5fcc6b6/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8430fd67ec314ac46f31fdc5c5fcc6b6/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/860d6a129852ac98ccf5041a426af88f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/860d6a129852ac98ccf5041a426af88f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/9e557be4807fae5bf40b4d62910ac6ae/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/9e557be4807fae5bf40b4d62910ac6ae/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/13e4260744b9bd10616a96617520871e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/13e4260744b9bd10616a96617520871e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/a2bed52218cd0418b0da07ccf8aa62ef/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/a2bed52218cd0418b0da07ccf8aa62ef/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/2697c78e989923725eed3266ebfe9d03/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:25.4.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/2697c78e989923725eed3266ebfe9d03/AndroidManifest.xml:27:13-51
