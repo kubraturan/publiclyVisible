@@ -13,7 +13,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="75dp"
-        android:text="e-Mail İle Kayıt Ol" />
+        android:text="@string/action_sign_up_email" />
 
     <Button
         android:id="@+id/btFacebookRegister"
@@ -22,7 +22,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="176dp"
-        android:text="Facebook İle Kayıt Ol" />
+        android:text="@string/action_sign_up_facebook" />
 
     <Button
         android:id="@+id/btTwitterRegister"
@@ -31,5 +31,5 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="193dp"
-        android:text="Twitter İle Kayıt Ol" />
+        android:text="@string/action_sign_up_twitter" />
 </RelativeLayout>
