@@ -20,4 +20,5 @@
     <string name="action_sign_up_twitter">Twitter İle Kayıt Ol</string>
     <string name="auth_failed">Failed.</string>
     <string name="emailpassword_status_fmt">E Mail Status :</string>
+    <string name="not_registered">Hesabın yok mu? Kaydol.</string>
 </resources>

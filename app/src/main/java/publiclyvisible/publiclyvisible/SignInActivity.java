@@ -11,6 +11,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -32,6 +33,7 @@ public class SignInActivity extends AppCompatActivity {
          FirebaseAuth.AuthStateListener mAuthListener;
          EditText etMail, etPassword;
          Button btSignIn;
+         TextView tvKaydol;
 
 
         @Override
@@ -77,7 +79,16 @@ public class SignInActivity extends AppCompatActivity {
 
                     }
 
+
                 } };
+            tvKaydol=(TextView) findViewById(R.id.tvKaydol);
+            tvKaydol.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent registerIntent=new Intent(SignInActivity.this,RegisterEmail.class);
+                    SignInActivity.this.startActivity(registerIntent);
+                }
+            });
             etMail = (EditText) findViewById(R.id.etMail);
             etPassword = (EditText) findViewById(R.id.etPassword);
             btSignIn = (Button) findViewById(R.id.btSignIn);
@@ -97,7 +108,7 @@ public class SignInActivity extends AppCompatActivity {
                         return;
                     }
 
-//todo:internet baglantısı olmadıgı zaman kontrol etmek için
+                    //todo:internet baglantısı olmadıgı zaman kontrol etmek için
                     ConnectivityManager cm =
                             (ConnectivityManager)SignInActivity.this.getSystemService(Context.CONNECTIVITY_SERVICE);
 

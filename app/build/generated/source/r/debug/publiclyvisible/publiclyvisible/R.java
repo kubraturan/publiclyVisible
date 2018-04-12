@@ -2741,12 +2741,13 @@ public final class R {
     public static final int title_template=0x7f070081;
     public static final int top=0x7f070082;
     public static final int topPanel=0x7f070083;
-    public static final int up=0x7f070084;
-    public static final int useLogo=0x7f070085;
-    public static final int wide=0x7f070086;
-    public static final int withText=0x7f070087;
-    public static final int wrap=0x7f070088;
-    public static final int wrap_content=0x7f070089;
+    public static final int tvKaydol=0x7f070084;
+    public static final int up=0x7f070085;
+    public static final int useLogo=0x7f070086;
+    public static final int wide=0x7f070087;
+    public static final int withText=0x7f070088;
+    public static final int wrap=0x7f070089;
+    public static final int wrap_content=0x7f07008a;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;
@@ -2882,13 +2883,14 @@ public final class R {
     public static final int google_app_id=0x7f0b0042;
     public static final int google_crash_reporting_api_key=0x7f0b0043;
     public static final int google_storage_bucket=0x7f0b0044;
-    public static final int permission_rationale=0x7f0b0045;
-    public static final int project_id=0x7f0b0046;
-    public static final int prompt_email=0x7f0b0047;
-    public static final int prompt_password=0x7f0b0048;
-    public static final int search_menu_title=0x7f0b0049;
-    public static final int status_bar_notification_info_overflow=0x7f0b004a;
-    public static final int title_activity_register=0x7f0b004b;
+    public static final int not_registered=0x7f0b0045;
+    public static final int permission_rationale=0x7f0b0046;
+    public static final int project_id=0x7f0b0047;
+    public static final int prompt_email=0x7f0b0048;
+    public static final int prompt_password=0x7f0b0049;
+    public static final int search_menu_title=0x7f0b004a;
+    public static final int status_bar_notification_info_overflow=0x7f0b004b;
+    public static final int title_activity_register=0x7f0b004c;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0c0000;

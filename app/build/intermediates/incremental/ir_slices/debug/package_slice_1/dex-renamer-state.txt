@@ -1,4 +1,4 @@
-#Thu Apr 12 22:03:43 EET 2018
-base.0=C\:\\Users\\developer\\Downloads\\publiclyVisible\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+#Fri Apr 13 02:00:40 EET 2018
+base.0=/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/transforms/dexMerger/debug/2
 path.0=classes.dex
 renamed.0=classes.dex

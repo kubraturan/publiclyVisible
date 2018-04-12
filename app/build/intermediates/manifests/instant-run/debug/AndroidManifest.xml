@@ -45,6 +45,8 @@
         </activity>
         <activity android:name="publiclyvisible.publiclyvisible.RegisterActivity" />
         <activity android:name="publiclyvisible.publiclyvisible.RegisterEmail" />
+        <activity android:name="publiclyvisible.publiclyvisible.SignInActivity" />
+        <activity android:name="publiclyvisible.publiclyvisible.UserInformation" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"
@@ -78,11 +80,6 @@
             android:exported="false"
             android:permission="android.permission.BIND_JOB_SERVICE" />
 
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
         <receiver
             android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
             android:exported="true"
@@ -110,6 +107,11 @@
             android:authorities="publiclyvisible.publiclyvisible.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <meta-data
             android:name="com.google.android.gms.version"
