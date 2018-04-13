@@ -136,12 +136,12 @@
         "source": "/home/erkan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d02cbf1e967e49eddb9bd689cad65f6b/res/drawable/abc_dialog_material_background.xml"
     },
     {
-        "merged": "/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
-        "source": "/home/erkan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d02cbf1e967e49eddb9bd689cad65f6b/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
         "merged": "/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/res/merged/debug/layout_select_dialog_singlechoice_material.xml.flat",
         "source": "/home/erkan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d02cbf1e967e49eddb9bd689cad65f6b/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "/home/erkan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d02cbf1e967e49eddb9bd689cad65f6b/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/res/merged/debug/layout_abc_search_view.xml.flat",
@@ -378,10 +378,6 @@
     {
         "merged": "/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "/home/erkan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d02cbf1e967e49eddb9bd689cad65f6b/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
-    },
-    {
-        "merged": "/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/res/merged/debug/layout_activity_register1.xml.flat",
-        "source": "/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/res/layout/activity_register1.xml"
     },
     {
         "merged": "/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",

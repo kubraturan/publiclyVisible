@@ -47,7 +47,7 @@
         android:textColor="?attr/colorAccent" />
 
     <Button
-        android:id="@+id/btFacebookRegister"
+        android:id="@+id/btFacebookLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -56,7 +56,7 @@
         android:text="@string/action_sign_up_facebook" />
 
     <Button
-        android:id="@+id/btTwitterRegister"
+        android:id="@+id/btTwitterLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -74,5 +74,6 @@
         android:layout_marginStart="40dp"
         android:background="@android:color/black"
         android:visibility="visible" />
+
 
 </RelativeLayout>

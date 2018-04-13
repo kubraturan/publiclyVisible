@@ -21,4 +21,8 @@
     <string name="auth_failed">Failed.</string>
     <string name="emailpassword_status_fmt">E Mail Status :</string>
     <string name="not_registered">Hesabın yok mu? Kaydol.</string>
+    <string name="information_name" >Ad</string>
+    <string name="information_surname" >Soyad</string>
+    <string name="information_phone">Numara</string>
+    <string name="inofmation_dogum">Doğum Tarihi</string>
 </resources>

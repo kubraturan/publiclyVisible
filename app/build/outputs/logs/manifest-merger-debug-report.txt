@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-30:12
+ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-29:12
 MERGED from [com.google.firebase:firebase-database:12.0.1] /home/erkan/.gradle/caches/transforms-1/files-1.1/firebase-database-12.0.1.aar/0258d81887b8fc5564872b5e5f57654c/AndroidManifest.xml:2:1-8:12
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/erkan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d02cbf1e967e49eddb9bd689cad65f6b/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/erkan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a99e2db779d4b908752e8a69de1a0097/AndroidManifest.xml:2:1-11:12
@@ -36,20 +36,20 @@ MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /home/erk
 MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /home/erkan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.1.aar/f5b14703681ddeaeaab76bc7d5cc0b9b/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/erkan/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.1.aar/06ab2ebdecf20f7795bd056db003d7eb/AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/erkan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/41e950ade0c4707349d315f5550f201e/AndroidManifest.xml:17:1-30:12
-INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:3:5-46
 		INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
 		INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
-		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-30:12
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
-		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-30:12
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:2:11-69
@@ -66,7 +66,7 @@ ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/Andr
 	android:name
 		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:8:22-69
 application
-ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:10:5-28:19
+ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:10:5-27:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/erkan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d02cbf1e967e49eddb9bd689cad65f6b/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/erkan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d02cbf1e967e49eddb9bd689cad65f6b/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/erkan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a99e2db779d4b908752e8a69de1a0097/AndroidManifest.xml:9:5-20
@@ -153,22 +153,18 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
 		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:21:27-74
-activity#publiclyvisible.publiclyvisible.RegisterActivity
-ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:24:9-54
-	android:name
-		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:24:19-51
 activity#publiclyvisible.publiclyvisible.RegisterEmail
-ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:25:9-51
+ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:24:9-51
 	android:name
-		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:25:19-48
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:24:19-48
 activity#publiclyvisible.publiclyvisible.SignInActivity
-ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:26:9-52
+ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:25:9-52
 	android:name
-		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:26:19-49
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:25:19-49
 activity#publiclyvisible.publiclyvisible.UserInformation
-ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:27:9-62
+ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:26:9-62
 	android:name
-		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:27:19-50
+		ADDED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml:26:19-50
 uses-sdk
 INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/erkan/Desktop/publiclyVisible/publiclyVisible/app/src/main/AndroidManifest.xml

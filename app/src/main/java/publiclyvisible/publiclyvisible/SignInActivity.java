@@ -11,6 +11,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,13 +28,14 @@ import com.google.firebase.database.ValueEventListener;
 
 public class SignInActivity extends AppCompatActivity {
 
-        DatabaseReference dbreference;
-         DatabaseReference userRef;
-         FirebaseAuth mAuth;
-         FirebaseAuth.AuthStateListener mAuthListener;
-         EditText etMail, etPassword;
-         Button btSignIn;
-         TextView tvKaydol;
+        private DatabaseReference dbreference;
+        private DatabaseReference userRef;
+        private FirebaseAuth mAuth;
+        private FirebaseAuth.AuthStateListener mAuthListener;
+        private EditText etMail, etPassword;
+        private Button btSignIn;
+        private TextView tvKaydol;
+        private ProgressBar pbLogin;
 
 
         @Override
@@ -47,8 +49,14 @@ public class SignInActivity extends AppCompatActivity {
                 userRef.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
-                        etMail.setText(dataSnapshot.child("email").getValue().toString());
-                        etPassword.setText(dataSnapshot.child("password").getValue().toString());
+
+                        Intent intent = new Intent(SignInActivity.this,MainActivity.class); //bu kısım patlamaması sonra yönlendirme için   //Kullanıcı giriş yapmışsa
+                        Toast.makeText(getApplicationContext(),"Zaten giriş yapıldı.",Toast.LENGTH_SHORT); //Giriş yapılmış                         //Geçici olarak Main act'e yönlendiriliyor.
+                        startActivityForResult(intent,0); //<<
+
+                        //Bu kısım login olmuş kullanıcı tekrar uygulamayı açtığında uygulamanın crash olmasına sebep
+                        //etMail.setText(dataSnapshot.child("email").getValue().toString());
+                        //etPassword.setText(dataSnapshot.child("password").getValue().toString());
                     }
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
@@ -75,12 +83,10 @@ public class SignInActivity extends AppCompatActivity {
 
                         etMail.setText(user.getEmail());
                         etPassword.setText(dbreference.child(user.getUid()).child("password").getKey());
-                    } else {
-
                     }
 
-
                 } };
+            //pbLogin = (ProgressBar) findViewById(R.id.pbLogin);
             tvKaydol=(TextView) findViewById(R.id.tvKaydol);
             tvKaydol.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -108,7 +114,8 @@ public class SignInActivity extends AppCompatActivity {
                         return;
                     }
 
-                    //todo:internet baglantısı olmadıgı zaman kontrol etmek için
+
+                    //todo:internet baglantısı olmadıgı zaman kontrol etmek için -done
                     ConnectivityManager cm =
                             (ConnectivityManager)SignInActivity.this.getSystemService(Context.CONNECTIVITY_SERVICE);
 
@@ -121,6 +128,7 @@ public class SignInActivity extends AppCompatActivity {
 
                             if( isConnected){
                                 if (task.isSuccessful()) {
+
 
                                     Intent intent = new Intent(SignInActivity.this, UserInformation.class);
                                     startActivity(intent);

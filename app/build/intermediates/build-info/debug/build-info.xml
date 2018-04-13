@@ -2,79 +2,59 @@
 <instant-run
     abi="x86"
     api-level="26"
-    build-mode="FULL"
+    build-mode="COLD"
     density="xxxhdpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.1.1"
-    timestamp="1523574036499"
+    timestamp="1523619823302"
     token="-7774099904510315268"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="35" />
+        duration="95" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="146" />
+        duration="43" />
     <task
         name="verifier"
-        duration="20" />
+        duration="4" />
 
-    <artifact
-        location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
     <artifact
         location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
-    <artifact
-        location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1523574036499"
+        timestamp="1523619414974"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
         <artifact
+            location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
+            location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
@@ -89,23 +69,17 @@
             location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
+            location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1523619823302"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
-        <artifact
-            location="/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

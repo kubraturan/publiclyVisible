@@ -1,4 +1,4 @@
-#Fri Apr 13 02:00:40 EET 2018
+#Fri Apr 13 14:36:20 EET 2018
 base.0=/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/transforms/dexMerger/debug/10
 path.0=classes.dex
 renamed.0=classes.dex
