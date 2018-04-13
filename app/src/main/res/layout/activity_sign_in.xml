@@ -46,4 +46,33 @@
         android:text="@string/not_registered"
         android:textColor="?attr/colorAccent" />
 
+    <Button
+        android:id="@+id/btFacebookRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="172dp"
+        android:text="@string/action_sign_up_facebook" />
+
+    <Button
+        android:id="@+id/btTwitterRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="116dp"
+        android:text="@string/action_sign_up_twitter" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="304dp"
+        android:layout_height="3dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="231dp"
+        android:layout_marginStart="40dp"
+        android:background="@android:color/black"
+        android:visibility="visible" />
+
 </RelativeLayout>

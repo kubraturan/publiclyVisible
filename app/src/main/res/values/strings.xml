@@ -16,8 +16,8 @@
     </string>
     <string name="action_sign_up_email">e-Mail İle Kayıt Ol</string>
     <string name="action_sign_in_email">Giriş Yap</string>
-    <string name="action_sign_up_facebook">Facebook İle Kayıt Ol</string>
-    <string name="action_sign_up_twitter">Twitter İle Kayıt Ol</string>
+    <string name="action_sign_up_facebook">Facebook İle Giriş Yap</string>
+    <string name="action_sign_up_twitter">Twitter İle Giriş Yap</string>
     <string name="auth_failed">Failed.</string>
     <string name="emailpassword_status_fmt">E Mail Status :</string>
     <string name="not_registered">Hesabın yok mu? Kaydol.</string>
