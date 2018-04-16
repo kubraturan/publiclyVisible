@@ -6,8 +6,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+
 
 public class UserInformation extends AppCompatActivity {
     private EditText etName;
@@ -15,6 +18,11 @@ public class UserInformation extends AppCompatActivity {
     private EditText etPhoneNumber;
     private EditText etBorn;
     private Button btSave;
+    User userInfo;
+    FirebaseDatabase database = FirebaseDatabase.getInstance();
+    FirebaseUser myUser = FirebaseAuth.getInstance().getCurrentUser();
+    DatabaseReference myRef;
+    String myID;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,14 +32,19 @@ public class UserInformation extends AppCompatActivity {
         etPhoneNumber = (EditText) findViewById(R.id.etPhoneNumber);
         etBorn = (EditText) findViewById(R.id.etBorn);
         btSave = (Button) findViewById(R.id.btSave);
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        final DatabaseReference myRef = database.getReference("");
+
+        myUser = FirebaseAuth.getInstance().getCurrentUser();
+
+        myRef=database.getReference("users").child(myUser.getUid());
+        myID=myRef.push().getKey();
 
         btSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                myRef.setValue(etName.toString());
+                userInfo = new User(etName.getText().toString(),etSurname.getText().toString(),etBorn.getText().toString(),etPhoneNumber.getText().toString());
+                myRef.setValue(userInfo);
             }
         });
     }
 }
+

@@ -18,6 +18,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
 
 //private FirebaseAuth mAuth;
 
@@ -27,6 +28,7 @@ public class RegisterEmail extends AppCompatActivity implements View.OnClickList
     private EditText etPassword;
     private TextView mStatusTextView;
     private TextView mDetailTextView;
+    private DatabaseReference dbRef;
     private static final String TAG = "EmailPassword";
 
     @Override
@@ -45,7 +47,7 @@ public class RegisterEmail extends AppCompatActivity implements View.OnClickList
         super.onStart();
         // Check if user is signed in (non-null) and update UI accordingly.
         FirebaseUser currentUser = mAuth.getCurrentUser();
-        //updateUI(currentUser);
+
     }
     public void createAccount(String email, String password){
         Log.d(TAG, "createAccount:" + email);
