@@ -1,11 +1,7 @@
 #Internal package file, do not edit.
-#Fri Apr 13 02:00:40 EET 2018
-1.base=/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/transforms/dexMerger/debug/12
+#Tue Apr 17 01:27:30 EET 2018
 0.baseType=DIRECTORY
-1.baseType=DIRECTORY
-count=2
-1.set=DEX
+0.base=C\:\\Users\\developer\\Downloads\\publiclyVisible\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
 0.path=classes.dex
 0.set=DEX
-0.base=/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/transforms/dexMerger/debug/13
-1.path=classes.dex
+count=1

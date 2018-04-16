@@ -35,15 +35,27 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="198dp"
+        android:layout_marginTop="214dp"
         android:text="@string/action_sign_in_email" />
 
     <TextView
         android:id="@+id/tvKaydol"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="173dp"
         android:text="@string/not_registered"
+        android:textColor="?attr/colorAccent" />
+
+    <TextView
+        android:id="@+id/tvPasswordForget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="183dp"
+        android:text="Şifreni mi unuttun ?"
         android:textColor="?attr/colorAccent" />
 
     <Button
@@ -52,7 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="172dp"
+        android:layout_marginBottom="98dp"
         android:text="@string/action_sign_up_facebook" />
 
     <Button
@@ -61,7 +73,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="116dp"
+        android:layout_marginBottom="41dp"
         android:text="@string/action_sign_up_twitter" />
 
     <View

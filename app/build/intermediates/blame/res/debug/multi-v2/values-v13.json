@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v13/values-v13.xml",
+            "outputFile": "C:\\Users\\developer\\Downloads\\publiclyVisible\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v13\\values-v13.xml",
             "map": [
                 {
-                    "source": "/home/erkan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d02cbf1e967e49eddb9bd689cad65f6b/res/values-v13/values-v13.xml",
+                    "source": "C:\\Users\\developer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d29707fa2458f12e8db45e7bc5676b0e\\res\\values-v13\\values-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

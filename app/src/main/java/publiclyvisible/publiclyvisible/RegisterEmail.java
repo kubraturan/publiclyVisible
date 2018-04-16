@@ -1,12 +1,13 @@
 package publiclyvisible.publiclyvisible;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
-import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -19,6 +20,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 //private FirebaseAuth mAuth;
 
@@ -30,18 +32,21 @@ public class RegisterEmail extends AppCompatActivity implements View.OnClickList
     private TextView mDetailTextView;
     private DatabaseReference dbRef;
     private static final String TAG = "EmailPassword";
+    DatabaseReference userRef;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register_email);
-        mAuth=FirebaseAuth.getInstance();
-        etMail= (EditText) findViewById(R.id.etMail);
-        etPassword= (EditText) findViewById(R.id.etPassword);
+        mAuth = FirebaseAuth.getInstance();
+        etMail = (EditText) findViewById(R.id.etMail);
+        etPassword = (EditText) findViewById(R.id.etPassword);
+        userRef = FirebaseDatabase.getInstance().getReference("users");
         Button btMailRegister = (Button) findViewById(R.id.btRegisterMailComplete);
         btMailRegister.setOnClickListener(this);
 
     }
+
     @Override
     public void onStart() {
         super.onStart();
@@ -49,8 +54,8 @@ public class RegisterEmail extends AppCompatActivity implements View.OnClickList
         FirebaseUser currentUser = mAuth.getCurrentUser();
 
     }
-    public void createAccount(String email, String password){
-        Log.d(TAG, "createAccount:" + email);
+
+    public void createAccount(String email, String password) {
         if (!validateForm()) {
             return;
         }
@@ -60,61 +65,45 @@ public class RegisterEmail extends AppCompatActivity implements View.OnClickList
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             // Sign in success, update UI with the signed-in user's information
-                            Log.d(TAG, "createUserWithEmail:success");
                             FirebaseUser user = mAuth.getCurrentUser();
                             Toast.makeText(RegisterEmail.this, "Kayıt Başarılı",
                                     Toast.LENGTH_SHORT).show();
+
+                            Intent userInfromation = new Intent(getApplicationContext(), UserInformation.class);
+                            startActivity(userInfromation);
+
                             //updateUI(user);
+
+                            userRef.child(task.getResult().getUser().getUid()).setValue(etMail.getText().toString(), etPassword.getText().toString());
                         } else {
                             // If sign in fails, display a message to the user.
-                            Log.w(TAG, "createUserWithEmail:failure", task.getException());
                             Toast.makeText(RegisterEmail.this, "Kayıt İşlemi Başarısız",
                                     Toast.LENGTH_SHORT).show();
                             //updateUI(null);
                         }
 
-                        // ...
+
                     }
                 });
     }
 
-    /*private void updateUI(FirebaseUser user) {
-        //hideProgressDialog();
-        if (user != null) {
-            mStatusTextView.setText(getString(R.string.emailpassword_status_fmt,
-                    user.getEmail(), user.isEmailVerified()));
-            mDetailTextView.setText(getString(R.string.firebase_status_fmt, user.getUid()));
-
-            findViewById(R.id.email_password_buttons).setVisibility(View.GONE);
-            findViewById(R.id.email_password_fields).setVisibility(View.GONE);
-            findViewById(R.id.signed_in_buttons).setVisibility(View.VISIBLE);
-
-            findViewById(R.id.verify_email_button).setEnabled(!user.isEmailVerified());
-        } else {
-            mStatusTextView.setText(R.string.signed_out);
-            mDetailTextView.setText(null);
-
-            findViewById(R.id.email_password_buttons).setVisibility(View.VISIBLE);
-            findViewById(R.id.email_password_fields).setVisibility(View.VISIBLE);
-            findViewById(R.id.signed_in_buttons).setVisibility(View.GONE);
-        }
-    }*/
     private boolean validateForm() {
         boolean valid = true;
 
-        String email = etMail.getText().toString();
+        String email = etMail.getText().toString().trim();
         if (TextUtils.isEmpty(email)) {
             etMail.setError("Gerekli.");
             valid = false;
         } else {
             etMail.setError(null);
         }
-        if (Patterns.EMAIL_ADDRESS.matcher(etMail.toString()).matches()){
 
-        }
-        else{
+
+        if (android.util.Patterns.EMAIL_ADDRESS.matcher(etMail.getText().toString().trim()).matches()) {
+
+        } else {
             etMail.setError("Mail biçimi yanlış.");
-            valid=false;
+            valid = false;
         }
 
         String password = etPassword.getText().toString();
@@ -125,10 +114,41 @@ public class RegisterEmail extends AppCompatActivity implements View.OnClickList
             etPassword.setError(null);
         }
 
+        //todo:internet baglantısı olmadıgı zaman kontrol etmek için -done
+        ConnectivityManager cm =
+                (ConnectivityManager) RegisterEmail.this.getSystemService(Context.CONNECTIVITY_SERVICE);
+
+        final NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
+        final boolean isConnected = activeNetwork != null && activeNetwork.isConnectedOrConnecting();
+
+        mAuth.signInWithEmailAndPassword(etMail.getText().toString().trim(), etPassword.getText().toString().trim()).addOnCompleteListener(RegisterEmail.this, new OnCompleteListener<AuthResult>() {
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+
+                if (isConnected) {
+                    if (task.isSuccessful()) {
+
+
+                        Intent intent = new Intent(RegisterEmail.this, UserInformation.class);
+                        startActivity(intent);
+                        finish();
+                    } else {
+                        etMail.setText("");
+                        etPassword.setText("");
+                        Toast.makeText(getApplicationContext(), "Kullanıcı Adı veya Şifre Hatalı  Tekrar Deneyin", Toast.LENGTH_SHORT).show();
+
+                    }
+                } else if (isConnected == false) {
+
+
+                    Toast.makeText(getApplicationContext(), "Internet Bağlantınızı Kontrol Edin", Toast.LENGTH_SHORT).show();
+
+                }
+
+            }
+        });
         return valid;
     }
-
-
     @Override
     public void onClick(View view) {
 

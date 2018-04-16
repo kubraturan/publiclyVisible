@@ -1,7 +1,4 @@
-#Fri Apr 13 14:06:45 EET 2018
-base.0=/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/transforms/dexMerger/debug/13
-path.1=classes.dex
-renamed.1=classes2.dex
+#Tue Apr 17 01:27:29 EET 2018
+base.0=C\:\\Users\\developer\\Downloads\\publiclyVisible\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/home/erkan/Desktop/publiclyVisible/publiclyVisible/app/build/intermediates/transforms/dexMerger/debug/12
